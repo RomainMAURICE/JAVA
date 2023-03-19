@@ -1,5 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h>
+//oui
 
 	int pascal (int nBut, int pBut){
        int * tab;
