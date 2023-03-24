@@ -1,7 +1,7 @@
 Exercice 1
 ==========
 1) Quel est le type de s ? Comment le compilateur fait-il pour savoir qu'il existe une méthode length() sur s ?
--s est de typejava.lang.string, "var" permet de à la variable d'être du bon type
+-s est de typejava.lang.string, "var" permet de à la variable d'être du bon type.
 2) Qu'affiche le code suivant ? Expliquer.
 -le code suivant affiche true pour la première comparaison et false pour la seconde.
 -s2 est copié au niveau de la mémoire, pour s3, un nouvel objet à une nouvelle adresse mémoire est crée. La comparaison vérifie si les deux variables ont la même adresse car "==" est utilisé.
@@ -10,9 +10,9 @@ Exercice 1
 4) Qu'affiche le code suivant ? Expliquer
 -le code suivant affiche true, les deux variables sont initialisés avec la même chaine de charactère. les deux variables sont référées à la même adresse mémoire.
 5) Expliquer pourquoi il est important que java.lang.String ne soit pas mutable.
--java.lang.string ne doit pas être mutable pour des raisons de séurité, et pour éviter les modifications involontaires des variables en cas de confils avec les adresses mémoires
+-java.lang.string ne doit pas être mutable pour des raisons de sécurité et pour éviter les modifications involontaires des variables en cas de confils avec les adresses mémoires
 6) Qu'affiche le code suivant ?
--Le code suivant affiche "HELLO", la methode toUpperCase() passe la chaine de charactère mis en paramètre, en majuscule
+-Le code suivant affiche "hello", la chaine de charactère ne peut pas être modifié.
 
 Exercice 2
 ==========
@@ -63,3 +63,4 @@ Et pourquoi est-ce que le chargé de TD va me faire les gros yeux si j'écris un
 
 Exercice 3
 ==========
+
