@@ -64,3 +64,14 @@ Et pourquoi est-ce que le chargé de TD va me faire les gros yeux si j'écris un
 Exercice 3
 ==========
 
+1) A quoi servent la classe java.util.regex.Pattern et sa méthode compile ?
+A quoi sert la classe java.util.regex.Matcher ?
+
+2) Reprenez la petite calculatrice Calc de l'exercice 1. On veut que si l'utilisateur saisisse autre chose qu'un nombre, le programme lui demande de saisir une autre valeur.
+
+
+3) On veut écrire un programme qui va lire un fichier HTML dont le chemin est pris sur la ligne de commande et qui va afficher la liste des URLs de tous les liens contenus dans le fichier
+
+4) Modifiez le programme pour ne conserver que les liens contenant le mot java ou Java.
+
+5) Si vous vous embêtez pendant le week-end, modifiez votre programme pour gérer des liens contenant plusieurs balises
