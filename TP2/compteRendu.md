@@ -10,7 +10,7 @@ Exercice 1
 4) Qu'affiche le code suivant ? Expliquer
 -le code suivant affiche true, les deux variables sont initialisés avec la même chaine de charactère. les deux variables sont référées à la même adresse mémoire.
 5) Expliquer pourquoi il est important que java.lang.String ne soit pas mutable.
--java.lang.string ne doit pas être mutable pour éviter les modifications involontaires des variables en cas de confils avec les adresses mémoires
+-java.lang.string ne doit pas être mutable pour des raisons de séurité, et pour éviter les modifications involontaires des variables en cas de confils avec les adresses mémoires
 6) Qu'affiche le code suivant ?
 -Le code suivant affiche "HELLO", la methode toUpperCase() passe la chaine de charactère mis en paramètre, en majuscule
 
