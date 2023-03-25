@@ -65,10 +65,50 @@ Exercice 3
 ==========
 
 1) A quoi servent la classe java.util.regex.Pattern et sa méthode compile ?
+-java.util.regex.Pattern permet de traiter des expressions régulières. Compile prend en entrée une chaine de charactère et retourne un objet qui peut être utilisé pour effectuer 
+des opérations sur du texte, répérer des motifs.
 A quoi sert la classe java.util.regex.Matcher ?
+-java.util.regex.Matcher permet de chercher dans l'objet retourné par "Pattern" un motif définis
 
 2) Reprenez la petite calculatrice Calc de l'exercice 1. On veut que si l'utilisateur saisisse autre chose qu'un nombre, le programme lui demande de saisir une autre valeur.
+```java
+import java.util.Scanner;
 
+public class Calc {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int valueInt=0;
+        int valueInt2=0;
+
+        boolean notANumber = true;
+        while(notANumber){
+            String value = scanner.nextLine();
+            String value2 = scanner.nextLine();
+            if(value.matches("-?\\d+")){
+                if(value2.matches("-?\\d+")){
+                    valueInt = Integer.parseInt(value);
+                    valueInt2 = Integer.parseInt(value2);
+                    notANumber=false;
+                }
+                else{
+                    System.out.println("Veuillez entrer des nombres");
+                }
+            }
+            else{
+                System.out.println("Veuillez entrer des nombres");
+            }
+        }
+
+        scanner.close();
+        System.out.println(valueInt+valueInt2);
+        System.out.println(valueInt-valueInt2);
+        System.out.println(valueInt*valueInt2);
+        System.out.println(valueInt/valueInt2);
+        System.out.println(valueInt%valueInt2);
+    }
+}
+```
 
 3) On veut écrire un programme qui va lire un fichier HTML dont le chemin est pris sur la ligne de commande et qui va afficher la liste des URLs de tous les liens contenus dans le fichier
 
