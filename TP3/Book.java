@@ -50,5 +50,9 @@ public record Book(String title, String author) {
         return new Book(title, this.author);
     }    
 
+    public boolean isFromTheSameAuthor(Book book1, Book book2){
+        return book1.author.equals(book2.author);
+    }
+
 }
 
