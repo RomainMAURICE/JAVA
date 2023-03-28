@@ -39,6 +39,11 @@ import java.util.Objects;
 
 public record Book(String title, String author) {
 
+    /*public Book(String title, String author){
+        Objects.requireNonNull(title, "title is null");
+        this.title = title;
+        this.author = author;
+    }*/
     public Book{
         Objects.requireNonNull(title, "title is null");
     }
@@ -49,10 +54,13 @@ public record Book(String title, String author) {
     public Book withTitle(String title) {
         return new Book(title, this.author);
     }    
-
+    
     public boolean isFromTheSameAuthor(Book book1, Book book2){
         return book1.author.equals(book2.author);
     }
 
+    @Override
+    public String toString(){
+         return this.title + " by " + this.author;
+    }
 }
-
