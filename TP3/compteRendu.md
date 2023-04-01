@@ -20,6 +20,7 @@ Quel est le problème ? Comment peut-on le corriger ?
 ```java
     public Book(String title, String author){
         Objects.requireNonNull(title, "title is null");
+        Objects.requireNonNull(author, "author is null");
         this.title = title;
         this.author = author;
     }
@@ -29,6 +30,7 @@ Quel est le problème ? Comment peut-on le corriger ?
 ```java
     public Book{
         Objects.requireNonNull(title, "title is null");
+        Objects.requireNonNull(author, "author is null");
     }
 ```
 
