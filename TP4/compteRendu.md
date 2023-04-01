@@ -5,29 +5,29 @@ Exercice 1
 ===
 
 1) Que fait sysout + Ctrl + Space dans un main ?
-
+-"sysout" + Ctrl + Space dans un main permet de générer automatiquement "System.out.println()
 2) Que fait toStr + Ctrl + Space dans une classe ?
-
-3) Définir un champs foo de type int, que fait get + Ctrl + Space, et set + Ctrl + Space .
-
+-"toStr" + Ctrl + Space dans une classe permet de générer automatiquement la méthode "toString()"
+3) Définir un champs foo de type int, que fait get + Ctrl + Space, et set + Ctrl + Space .Dans le menu Source, comment générer un constructeur initialisant le champ foo ?
+-"get" + Ctrl + Space permet de générer automatiquement un getter pour le champ "foo", tandis que "set" + Ctrl + Space permet de générer automatiquement un setter
 4) Dans le menu Source, comment générer un constructeur initialisant le champ foo ?
-
+-Pour générer un constructeur initialisant le champ "foo", il faut cliquer sur "Source" dans la barre de menu, puis de sélectionner "Generate Constructor using Fields"
 5) Sélectionner le nom de la classe puis Alt + Shift + R, qu'obtient-on ? Même question avec le champ foo .
-
+-En appuyant sur Alt + Shift + R, on peut renommer la classe. en sélectionnant le champ "foo" puis en appuyant sur Alt + Shift + R, on peut renommer le champ.
 6) Écrire a = 2 + 3 + 4, puis sélectionner 2 + 3 puis Alt + Shift + L .
-
+-Extract local variable
 7) Écrire new Integer(2), en gardant le curseur après ')', appuyer sur Ctrl + 1, que se passe-t-il ?
-
+-"2" est écrit
 8) Déclarer une variable s de type String et cliquer sur String en maintenant la touche Ctrl . Que se passe-t-il ?
-
+-On retourne sur la classe String
 9) Dans la méthode toString(), que fait un Ctrl + Clic sur super.toString() ?
-
+-on accède directement à la méthode toString() de la superclasse de notre objet.
 10) Sélectionner le champs foo, puis Ctrl + Shift + G. Que se passe-t-il ?
-
+-affiche toutes les occurrences du champ foo dans le code
 11) À quoi sert Ctrl + Shift + O ?
-
+-Ctrl + Shift + O permet d'organiser les imports dans le code, en ajoutant ou en supprimant les importations nécessaires pour les classes utilisées.
 12) À quoi sert Ctrl + Shift + C ?
-
+-Ctrl + Shift + C permet de commenter ou décommenter une ligne
 
 Exercice 2
 ===
