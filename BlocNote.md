@@ -11,6 +11,7 @@ public record Voiture(String modele, int imatriculation) implements Vehicule{
 public class Garage{
   private String nom;
   private ArraysList<Vehicule> vehicules;
+  
   public Garage(){
     Objects.requireNonNull(nom, "nom is null");
     this.nom=nom;
