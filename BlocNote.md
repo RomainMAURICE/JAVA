@@ -24,7 +24,10 @@ public class Garage{
   
   @Override
   public String toString(){
-  
+    StringBuilder sb = new StringBuilder()
+    for(var i : vehicules){
+      sb.
+    }
   }
 }
 ```
