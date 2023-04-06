@@ -6,6 +6,7 @@ public record Voiture(String modele, int imatriculation){
   }
 }
 ```
+.
 ```java
 public class Garage{
   private String nom;
@@ -26,6 +27,7 @@ public class Garage{
   }
 }
 ```
+.
 ```java
 public record Voiture(String modele, int imatriculation){
   public Voiture{
