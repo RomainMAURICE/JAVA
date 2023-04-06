@@ -34,3 +34,9 @@ public interface Vehicule(){
   public abstract String nom():
 }
 ```
+.
+
+
+```java
+  throw new IllegalArgumentException("oui n'existe pas");
+```
