@@ -26,8 +26,9 @@ public class Garage{
   public String toString(){
     StringBuilder sb = new StringBuilder()
     for(var i : vehicules){
-      sb.
+      sb.append(i).append("\n");
     }
+    return sb.toString()
   }
 }
 ```
