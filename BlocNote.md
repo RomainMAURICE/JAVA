@@ -94,3 +94,7 @@ Predicate<String> / String -> boolean
 predicate<> / type -> boolean
 
 consumer<> / type -> void
+
+renable / rien -> void
+
+intUnaryOperator / int -> int
