@@ -88,3 +88,9 @@ throw new illegarargumentexecption();
 			}
 			reader.close();
 		}
+
+
+Predicate<String> / String -> boolean
+predicate<> / type -> boolean
+
+consumer<> / type -> void
