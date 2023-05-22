@@ -98,3 +98,8 @@ consumer<> / type -> void
 renable / rien -> void
 
 intUnaryOperator / int -> int
+
+//surcharge
+public car (String model, int year){
+	this(model, year, null);
+}
