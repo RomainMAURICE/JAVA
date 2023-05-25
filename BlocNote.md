@@ -111,4 +111,4 @@ renvoyer une liste non modifiable -> List.of()
 return list.stream()
 	.mapToDouble(i->i.price())
 	.sum();
-
+```
