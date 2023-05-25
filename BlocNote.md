@@ -112,3 +112,11 @@ return list.stream()
 	.mapToDouble(i->i.price())
 	.sum();
 ```
+```java
+public record Voiture(String modele, int imatriculation) implements Vehicule{
+  public Voiture{
+    Objects.requireNonNull(modele, "modele is null");
+    Objects.requireNonNull(imatriculation, "imatriculation is null");
+  }
+}
+```
