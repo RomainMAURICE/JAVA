@@ -95,7 +95,7 @@ predicate<> / type -> boolean
 
 consumer<> / type -> void
 
-renable / rien -> void
+runnable / rien -> void
 
 intUnaryOperator / int -> int
 
