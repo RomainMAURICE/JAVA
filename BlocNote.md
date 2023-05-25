@@ -105,4 +105,4 @@ public car (String model, int year){
 }
 
 
-renvoyer une liste non modifiable -> list.of()
+renvoyer une liste non modifiable -> List.of()
