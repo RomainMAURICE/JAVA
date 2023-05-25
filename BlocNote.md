@@ -108,7 +108,7 @@ public car (String model, int year){
 renvoyer une liste non modifiable -> List.of()
 
 ```java
-	return list.stream()
-		.mapToDouble(i->i.price())
-		.sum();
-```
+return list.stream()
+	.mapToDouble(i->i.price())
+	.sum();
+
