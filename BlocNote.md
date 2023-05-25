@@ -112,3 +112,5 @@ return list.stream()
 	.mapToDouble(i->i.price())
 	.sum();
 ```
+.
+
